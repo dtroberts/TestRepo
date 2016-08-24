@@ -1,0 +1,4 @@
+queries:
+    -   name: testquery
+        query: select * from test
+        chart_type: bar_chart
