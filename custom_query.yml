@@ -1,4 +1,4 @@
 queries:
-    -   name: testquery
+    -   name: new_query
         query: select count(*) from fb_page_insights
         chart_type: bar_chart
