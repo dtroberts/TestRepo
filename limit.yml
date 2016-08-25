@@ -1,0 +1,5 @@
+queries: 
+    -   name: limit
+        query: select * from fb_page_insights limit 30
+        chart_type: bar_chart
+        chart_description: test bar chart functionality
