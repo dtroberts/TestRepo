@@ -1,0 +1,4 @@
+queries: 
+    -   name: new_query
+        query: select count(*), end_time::date from fb_page_insights group by end_time::date
+        chart_type: bar_chart
