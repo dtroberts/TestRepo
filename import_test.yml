@@ -1,0 +1,5 @@
+queries:
+    -   name: new_query
+        query: select end_time::date, count(*) from fb_page_insights where datediff(day, end_time::date, getdate()::date) < 30 group by end_time::date
+        chart_type: bar_chart
+        chart_description: test
