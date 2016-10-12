@@ -2,3 +2,4 @@ queries:
     -   name: ga_unique_visits
         query: select count(distinct fullvisitorid || " " || visitorid), date from ga_test_04 group by date
         chart_type: bar_chart
+        chart_description: Unique visits by day for table ga_test_04
