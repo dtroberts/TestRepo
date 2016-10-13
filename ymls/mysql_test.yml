@@ -1,0 +1,5 @@
+queries:
+    -   name: event_count
+        query: select modified_date, count(*) from event group by date
+        chart_type: bar_chart
+        chart_description: Unique visits by day for table event
