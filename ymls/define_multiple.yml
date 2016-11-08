@@ -6,7 +6,7 @@ queries:
         chart_style: blue
 
     -   name: ga360_unique_visits
-        query: select date, count(distinct fullvisitorid || visitid) from ga_test_04 group by date
+        query: select date, count(distinct fullvisitorid || visitid) from ga360_master group by date
         chart_type: line_chart
         chart_description: Unique visits by day for table ga360_master
         chart_style: sunset
