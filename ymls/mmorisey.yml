@@ -1,0 +1,6 @@
+queries:
+    -   name: test_query
+        query: select date(order_timestamp), count(action_type) from mmorrissey.ob_test group by order_timestamp
+        chart_type: bar_chart
+        chart_description: test
+        style: blue
